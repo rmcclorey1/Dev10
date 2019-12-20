@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--
+Name: Ronan McClorey
+Date Created:12/11/19
+Most recent revision:12/19/19
+-->
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Menu</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body {
+  background-color: #cfe0e8
+}
+
+#items, #items2 {
+  text-align: center;
+}
+
+table {
+  border: 1px solid #87bdd8;
+  padding: 5px 10px;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+}
+
+tr {
+  height: 30px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #b7d7e8;
+}
+
+</style>
+
+<noscript>
+  <div class="error message">
+    JavaScript is currently disabled this site is best viewed with JavaScript enabled.
+  </div>
+</noscript>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>The Boulevard</h1>
+  </header>
+
+  <header class="jumbotron">
+  <h2>New Location Downtown</h2>
+  <h3>Opening Spring 2020</h3>
+</header>
+
+  <nav>
+    <a class="btn badge-pill" href="index.html"><i class="fa fa-home"></i></a>
+    <a class="btn badge-pill" href="menu.html">Menu</a>
+    <a class="btn badge-pill" href="contactus.html">Contact Us</a>
+  </nav>
+
+  <div style="text-align: center" id="carouselNews" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselNews" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselNews" data-slide-to="1"></li>
+    <li data-target="#carouselNews" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h4>We're opening a new location!</h4>
+    </div>
+    <div class="carousel-item">
+      <h4>We're rolling out our seasonal menu, with special options for this season</h4>
+    </div>
+    <div class="carousel-item">
+      <h4>The Drink of the Month is SG Special Brew</h4>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselNews" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselNews" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+
+  <div id="items" class="row">
+    <div class="col-lg-4 col-md">
+    <h5>Burgers and Fries</h5>
+    <p>An American Classic!</p>
+    <p>Your choice - with or without cheese</p>
+    <p>Pickle, onion, tomato, and lettuce</p>
+    <p>Servered with our famous thick cut</p>
+    <p>french fries</p>
+    <p>$7.95</p>
+  </div>
+    <div class="col-lg-4 col-md">
+    <h5>Hot Dog and Chips</h5>
+    <p>An Summer Classic!</p>
+    <p>Your choice - white or wheat bun</p>
+    <p>Relish, mustard, and ketchup</p>
+    <p>Servered with our house-made chips</p>
+    <p>$7.95</p>
+  </div>
+    <div class="col-lg-4 col-md">
+    <h5>Italian Sausage and Peppers</h5>
+    <p>An All-Time Favorite!</p>
+    <p>Your choice - mild or spicy Cole Slaw</p>
+    <p>Servered with garlic mashers</p>
+    <p>$10.95</p>
+  </div>
+</div>
+
+  <div id="items2" class="row">
+    <div class="col-lg-4 col-md">
+    <h5>Tenderlion Sandwich and Chips</h5>
+    <p>Really Hits the Spot!</p>
+    <p>Plain or Sesame Seed Bun</p>
+    <p>Pickle, onion, tomato, and lettuce</p>
+    <p>Servered with our house-made chips</p>
+    <p>$8.95</p>
+  </div>
+    <div class="col-lg-4 col-md">
+    <h5>House Salad</h5>
+    <p>On the Lighter Side</p>
+    <p>Your choice - with or without cheese</p>
+    <p>Iceberg lettuce, tomatos, peppers</p>
+    <p>Thousand Island or Ranch</p>
+    <p>Dressing Served with a dinner roll</p>
+    <p>$6.95</p>
+  </div>
+    <div class="col-lg-4 col-md">
+    <h5>Brisket Sandwich and Fries</h5>
+    <p>A Taste of Texas</p>
+    <p>Smoked Brisket on thick-cut</p>
+    <p>Texas Toast</p>
+    <p>Cole Slaw</p>
+    <p>Servered with our famous thick-cut</p>
+    <p>french fries</p>
+    <p>$7.95</p>
+  </div>
+</div>
+
+<table>
+  <thead>
+  <tr>
+    <th>Beverages</th>
+    <th> </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Root Beer</td>
+    <td>$3.00</td>
+  </tr>
+  <tr>
+    <td>Bottled Water</td>
+    <td>$1.25</td>
+  </tr>
+  <tr>
+    <td>Lemonade</td>
+    <td>$1.00</td>
+  </tr>
+  <tr>
+    <td>Iced Tea</td>
+    <td>$1.25</td>
+  </tr>
+</tbody>
+  </table>
+
+</div>
+
+    <footer>
+      <hr />
+      <p>684 Manhattan Blvd, New York, New York, 12526</p>
+      <p>(212)-555-7821</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
